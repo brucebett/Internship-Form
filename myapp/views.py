@@ -1,4 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.contrib import messages
+from myapp.models import Internship
 
 # Create your views here.
 def internshipdetails(request):    
