@@ -35,3 +35,9 @@ def internshipdetails(request):
         return redirect('/internshipdetails')
 
     return render(request, 'internship.html') 
+
+
+def blog(request):
+    posts=Blogs.objects.all()
+    context={"posts":posts}
+    return render(request, 'blog.html', context)
