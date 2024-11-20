@@ -19,5 +19,5 @@ from myapp import views
 
 urlpatterns = [
     path('', views.internshipdetails, name='internshipdetails'),
-    path('blog', views.blog, name='blog')
+    path('blog/', views.blog, name='blog')
 ]

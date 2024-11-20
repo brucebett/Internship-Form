@@ -18,3 +18,4 @@ class InternshipAdmin(admin.ModelAdmin):
     list_filter=['college_name','project_report','offer_status']
 
 admin.site.register(Internship,InternshipAdmin)
+admin.site.register(Blogs)
